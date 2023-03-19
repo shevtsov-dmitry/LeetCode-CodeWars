@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e59cb576-2687-4b5d-840e-1f1affa62ccb" name="Changes" comment="Завершил успешно">
-      <change afterPath="$PROJECT_DIR$/src/Valid_Parentheses_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Wildcard_Matching_44.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="uwp6ro7z" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,11 +42,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shado/IntelliJIDEAProjects/air-pollution-map-project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
@@ -51,7 +56,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Valid_Parentheses_20">
+  <component name="RunManager" selected="Application.Wildcard_Matching_44">
     <configuration name="Longest_Common_Prefix_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Longest_Common_Prefix_14" />
       <module name="LeetCode-everyday" />
@@ -66,6 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Wildcard_Matching_44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Wildcard_Matching_44" />
+      <module name="LeetCode-everyday" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultiThreadedStringBuilder" type="Java Scratch" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MultiThreadedStringBuilder" />
       <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/MultiThreadedStringBuilder.java" />
@@ -75,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Wildcard_Matching_44" />
         <item itemvalue="Application.Valid_Parentheses_20" />
         <item itemvalue="Application.Longest_Common_Prefix_14" />
         <item itemvalue="Java Scratch.MultiThreadedStringBuilder" />
@@ -90,7 +103,12 @@
       <option name="presentableId" value="Default" />
       <updated>1678614557041</updated>
       <workItem from="1678614558335" duration="5454000" />
-      <workItem from="1678696452113" duration="8146000" />
+      <workItem from="1678696452113" duration="8975000" />
+      <workItem from="1679055029958" duration="7000" />
+      <workItem from="1679138210006" duration="793000" />
+      <workItem from="1679179443731" duration="698000" />
+      <workItem from="1679218559156" duration="9213000" />
+      <workItem from="1679234474532" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="Незакончен №14.">
       <created>1678618011178</created>
@@ -113,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678621150390</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Завершил успешно">
+      <created>1678709774639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678709774639</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
