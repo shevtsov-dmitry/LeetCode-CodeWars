@@ -16,7 +16,6 @@ public class Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316 {
     * */
     public long countPairs(int n, int[][] edges) {
 
-
         return 0;
     }
 }
