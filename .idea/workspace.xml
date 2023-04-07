@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e59cb576-2687-4b5d-840e-1f1affa62ccb" name="Changes" comment="updated .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/Longest_Palindromic_Substring_5.java" afterDir="false" />
+    <list default="true" id="e59cb576-2687-4b5d-840e-1f1affa62ccb" name="Changes" comment="longest substring palindrome solved">
+      <change afterPath="$PROJECT_DIR$/src/Zigzag_Conversion_6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Longest_Palindromic_Substring_5.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Median_Of_Two_Sorted_Arrays_4.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Remove_Duplicates_from_Sorted_Array_14.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="uwp6ro7z" />
@@ -42,7 +48,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shado/IntelliJIDEAProjects/air-pollution-map-project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shado/Documents/temp/just_to_copy_your_node_modules&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,7 +62,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Application.Longest_Palindromic_Substring_5">
+  <component name="RunManager" selected="Application.Zigzag_Conversion_6">
     <configuration name="Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316" />
       <module name="LeetCode-everyday" />
@@ -78,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wildcard_Matching_44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Wildcard_Matching_44" />
+    <configuration name="Zigzag_Conversion_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zigzag_Conversion_6" />
       <module name="LeetCode-everyday" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zigzag_Conversion_6" />
         <item itemvalue="Application.Longest_Palindromic_Substring_5" />
         <item itemvalue="Application.Remove_Duplicates_from_Sorted_Array_14" />
         <item itemvalue="Java Scratch.CitiesAirRoute" />
         <item itemvalue="Application.Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316" />
-        <item itemvalue="Application.Wildcard_Matching_44" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +131,10 @@
       <workItem from="1679777266427" duration="55000" />
       <workItem from="1680428992165" duration="10037000" />
       <workItem from="1680548337496" duration="98000" />
-      <workItem from="1680615059746" duration="7664000" />
+      <workItem from="1680615059746" duration="8290000" />
+      <workItem from="1680692941382" duration="880000" />
+      <workItem from="1680798244803" duration="3536000" />
+      <workItem from="1680861892444" duration="13094000" />
     </task>
     <task id="LOCAL-00001" summary="Незакончен №14.">
       <created>1678618011178</created>
@@ -190,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680437403864</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="longest substring palindrome solved">
+      <created>1680626442094</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680626442094</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +231,7 @@
     <MESSAGE value="14 ex is totally completed and also I dropped it because bad formulation of task" />
     <MESSAGE value="Completed 4" />
     <MESSAGE value="updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
+    <MESSAGE value="longest substring palindrome solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="longest substring palindrome solved" />
   </component>
 </project>
