@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author shado
+ *
+ */
+module LeetCode {
+}
