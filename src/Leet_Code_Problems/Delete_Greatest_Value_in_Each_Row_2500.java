@@ -16,22 +16,31 @@ public class Delete_Greatest_Value_in_Each_Row_2500 {
 	public static int deleteGreatestValue(int[][] grid) {
 		int sum = 0;
 		List<List<Integer>> gridLists = new ArrayList<>();
-		for (int i = 0; i < grid.length; i++) {
-			gridLists.get(i).add(Arrays.asList(grid[i]));
-			
+		for (int[] row : grid) {
+		    List<Integer> rowList = new ArrayList<>();
+		    for (int col : row) {
+		        rowList.add(col);
+		    }
+		    gridLists.add(rowList);
 		}
-		
 		
 		List<Integer> maxIntsFromEachRow = new ArrayList<>();
-		while(!gridList.isEmpty()) {
-			for (int[] array : gridList) {
-				maxIntsFromEachRow.clear();
-				maxIntsFromEachRow.add(findMax(array));
-				sum += findMax(maxIntsFromEachRow);
+		
+		while(!gridLists.get(0).isEmpty()) {
+			maxIntsFromEachRow.clear();
+			for (List<Integer> array : gridLists) {
+				int max = findMax(array); 
+				maxIntsFromEachRow.add(max);
+				int maxIndex = 0;
+				for (int i = 0; i < array.size(); i++) {
+					if(max == array.get(i)) maxIndex = i;
+				}
+				array.remove(maxIndex);
 			}
+			sum += findMax(maxIntsFromEachRow);
 		}
 		
-		return 0; 
+		return sum; 
 	}
 	
 	public static int findMax(int[] array){
