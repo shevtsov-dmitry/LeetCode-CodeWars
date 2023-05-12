@@ -36,27 +36,27 @@ public class Last_stone_weight_1046 {
 //		}
 		
 //		System.out.println(cobblestones); // after
-		while(!cobblestones.isEmpty()) {
-			// find max element
-			int max1 = findMax(cobblestones);
-			// delete the element before find other max one
-			cobblestones.removeIf(e -> e == max1);
-			// repeat the process to define second one
-			int max2 = findMax(cobblestones);
-			cobblestones.removeIf(e -> e == max2);
-			
-			// the logic of the game
-			if(max1 != max2) {
-				winner = max1 - max2;
-				cobblestones.add(winner);
-			} е
-			else {
-				cobblestones.removeIf(e -> e == 0);
-				winner = max1;
-				cobblestones.removeIf(e -> e == max1);
-			}
-			
-		}
+//		while(!cobblestones.isEmpty()) {
+//			// find max element
+//			int max1 = findMax(cobblestones);
+//			// delete the element before find other max one
+//			cobblestones.removeIf(e -> e == max1);
+//			// repeat the process to define second one
+//			int max2 = findMax(cobblestones);
+//			cobblestones.removeIf(e -> e == max2);
+//			
+//			// the logic of the game
+//			if(max1 != max2) {
+//				winner = max1 - max2;
+//				cobblestones.add(winner);
+//			} е
+//			else {
+//				cobblestones.removeIf(e -> e == 0);
+//				winner = max1;
+//				cobblestones.removeIf(e -> e == max1);
+//			}
+//			
+//		}
 		
 		if(cobblestones.isEmpty()) return 0;
 		return winner;
