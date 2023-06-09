@@ -48,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/shado/Documents/temp/just_to_copy_your_node_modules",
+    "last_opened_file_path": "C:/Users/shado/Desktop/air-pollution-map-project-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +59,9 @@
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
       "JAVA"
     ]
@@ -138,6 +141,8 @@
       <workItem from="1680798244803" duration="3536000" />
       <workItem from="1680861892444" duration="13094000" />
       <workItem from="1685377084428" duration="544000" />
+      <workItem from="1685880773340" duration="695000" />
+      <workItem from="1685889639070" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="Незакончен №14.">
       <created>1678618011178</created>

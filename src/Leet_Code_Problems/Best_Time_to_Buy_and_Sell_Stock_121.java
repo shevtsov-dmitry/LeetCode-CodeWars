@@ -10,20 +10,13 @@ public final class Best_Time_to_Buy_and_Sell_Stock_121 {
 	}
 	
 	public static int maxProfit(int[] prices) {
-		int cheapestPrice = prices[0];
-		int cheapestPriceIndex = 0;
-		for (int i = 1; i < prices.length; i++) {
-			cheapestPrice = Integer.min(cheapestPrice, i);
-			if(cheapestPrice < prices[i]) {
-				cheapestPriceIndex = i;
-			}
+		int buy = Integer.MAX_VALUE;
+		int sell = 0;
+		for (int i = 0; i < prices.length; i++) {
+			int currentPrice = prices[i];
+			buy = Math.min(buy, currentPrice);
+			sell = Math.max(sell, currentPrice - buy);
 		}
-		System.out.println("lovely%d".formatted(124894));
-//		for (int i = cheapestPriceIndex; i < prices.length; i++) {
-//			if()
-//		}
-		
-		return 0;
-    }
-
+		return sell;
+	}
 }
