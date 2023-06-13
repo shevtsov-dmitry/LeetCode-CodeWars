@@ -26,11 +26,11 @@ public class Best_Time_to_Buy_and_Sell_Stock_II_122 {
 			else {
 				sell = Math.max(sell, currentElem - buy);
 				overallProfit += sell;
+				
 				// reset to default values
 				sell = 0;
 				buy = Integer.MAX_VALUE;
 			}
-			
 			if(i == prices.length - 2 && currentElem < nextElem){
 				overallProfit += nextElem - buy;
 			}
