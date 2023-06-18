@@ -1,0 +1,21 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¼¤æú
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•ÒØ¥üÿÿÿÿ
+¢
+java:S2681&"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ÏÎ¶öüÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(íªÍ%
+Q	java:S125"<This block of commented-out lines of code should be removed.(‘˜‹Ç
+9
+java:S1659"#Declare "hold2" on a separate line.(àÑ‹…
+<
+java:S1659"&Declare "release2" on a separate line.(øïèµ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¨Öô¨
+h
+java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Œýûž
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(•’°ß
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+M
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

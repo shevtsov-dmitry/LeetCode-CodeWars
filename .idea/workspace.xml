@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e59cb576-2687-4b5d-840e-1f1affa62ccb" name="Changes" comment="longest substring palindrome solved">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e6df5ed8-84b4-46cf-86ae-2097c58172ab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e6df5ed8-84b4-46cf-86ae-2097c58172ab.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +49,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/shado/Desktop/air-pollution-map-project-main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/shado/IdeaProjects/webOrderFoodProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,14 +69,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Zigzag_Conversion_6">
-    <configuration name="Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316" />
-      <module name="LeetCode-everyday" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Subsets_78">
     <configuration name="Longest_Palindromic_Substring_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Longest_Palindromic_Substring_5" />
       <module name="LeetCode-everyday" />
@@ -85,6 +80,19 @@
     <configuration name="Remove_Duplicates_from_Sorted_Array_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Remove_Duplicates_from_Sorted_Array_14" />
       <module name="LeetCode-everyday" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subsets_78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Subsets_78" />
+      <module name="LeetCode-everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leet_Code_Problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -105,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Subsets_78" />
         <item itemvalue="Application.Zigzag_Conversion_6" />
         <item itemvalue="Application.Longest_Palindromic_Substring_5" />
         <item itemvalue="Application.Remove_Duplicates_from_Sorted_Array_14" />
         <item itemvalue="Java Scratch.CitiesAirRoute" />
-        <item itemvalue="Application.Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +151,10 @@
       <workItem from="1685377084428" duration="544000" />
       <workItem from="1685880773340" duration="695000" />
       <workItem from="1685889639070" duration="213000" />
+      <workItem from="1686828059531" duration="209000" />
+      <workItem from="1686828290507" duration="154000" />
+      <workItem from="1686828471038" duration="1443000" />
+      <workItem from="1687004121778" duration="84000" />
     </task>
     <task id="LOCAL-00001" summary="Незакончен №14.">
       <created>1678618011178</created>
