@@ -1,4 +1,4 @@
-package Leet_Code_Problems;
+package Leet_Code_Problems.Java;
 public class Longest_Palindromic_Substring_5 {
     public static void main(String[] args){
         System.out.println(longestSubstring("fjiwemahwadarjbhmadamr32jowef"));

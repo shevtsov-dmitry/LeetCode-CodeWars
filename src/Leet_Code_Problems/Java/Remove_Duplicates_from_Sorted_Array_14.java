@@ -1,4 +1,4 @@
-package Leet_Code_Problems;
+package Leet_Code_Problems.Java;
 import java.util.Arrays;
 
 public class Remove_Duplicates_from_Sorted_Array_14 {

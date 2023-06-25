@@ -4,22 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e59cb576-2687-4b5d-840e-1f1affa62ccb" name="Changes" comment="longest substring palindrome solved">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/ContainsDuplicate217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Rotate_Image_48.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e6df5ed8-84b4-46cf-86ae-2097c58172ab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e6df5ed8-84b4-46cf-86ae-2097c58172ab.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02c39f732510d90155ee2079188b615b724c8914" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab1645ba2f57521c1f95e857c9415ea2848d690a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccaf8c04de370f805ec5e462185d4ff8b9c5ba7f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/8/f818e9dfc64c7b886ab17e26e36f7b7785a883c7" beforeDir="false" />
+    <list default="true" id="e59cb576-2687-4b5d-840e-1f1affa62ccb" name="Changes" comment="217">
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Kotlin/ContainsDuplicate217.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6e229f8892579583ffa615e7418708ccea7104b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d71ee8e62803cb40d47adf24fa12c81772d5d06f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/2/02c39f732510d90155ee2079188b615b724c8914" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/b/ab1645ba2f57521c1f95e857c9415ea2848d690a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/c/ccaf8c04de370f805ec5e462185d4ff8b9c5ba7f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/8/f818e9dfc64c7b886ab17e26e36f7b7785a883c7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/6/d6e229f8892579583ffa615e7418708ccea7104b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/7/d71ee8e62803cb40d47adf24fa12c81772d5d06f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode-everyday.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode-everyday.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Best_Time_to_Buy_and_Sell_Stock_121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Best_Time_to_Buy_and_Sell_Stock_121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Best_Time_to_Buy_and_Sell_Stock_III_123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Best_Time_to_Buy_and_Sell_Stock_III_123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Best_Time_to_Buy_and_Sell_Stock_II_122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Best_Time_to_Buy_and_Sell_Stock_II_122.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Combination_Sum_39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Combination_Sum_39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/ContainsDuplicate217.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/ContainsDuplicate217.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Delete_Greatest_Value_in_Each_Row_2500.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Delete_Greatest_Value_in_Each_Row_2500.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Last_stone_weight_1046.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Last_stone_weight_1046.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Longest_Palindromic_Substring_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Longest_Palindromic_Substring_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Median_Of_Two_Sorted_Arrays_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Median_Of_Two_Sorted_Arrays_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Remove_Duplicates_from_Sorted_Array_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Remove_Duplicates_from_Sorted_Array_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Rotate_Image_48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Rotate_Image_48.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Single_Number_136.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Single_Number_136.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Solving_Questions_With_Brainpower_2140.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Solving_Questions_With_Brainpower_2140.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Subsets_78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Subsets_78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Two_Sum_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Two_Sum_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Valid_Parentheses_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Valid_Parentheses_20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Wildcard_Matching_44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Wildcard_Matching_44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Zigzag_Conversion_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Zigzag_Conversion_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -53,40 +71,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/shado/IdeaProjects/webOrderFoodProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shado/IdeaProjects/webOrderFoodProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ContainsDuplicate217">
+}</component>
+  <component name="RunManager" selected="Kotlin.ContainsDuplicate217Kt">
     <configuration name="ContainsDuplicate217" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.ContainsDuplicate217" />
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Java.ContainsDuplicate217" />
       <module name="LeetCode-everyday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leet_Code_Problems.*" />
+          <option name="PATTERN" value="Leet_Code_Problems.Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,19 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Remove_Duplicates_from_Sorted_Array_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Remove_Duplicates_from_Sorted_Array_14" />
-      <module name="LeetCode-everyday" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Subsets_78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Subsets_78" />
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Java.Subsets_78" />
       <module name="LeetCode-everyday" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Leet_Code_Problems.*" />
+          <option name="PATTERN" value="Leet_Code_Problems.Java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +140,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContainsDuplicate217Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Kotlin.ContainsDuplicate217Kt" />
+      <module name="LeetCode-everyday" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ContainsDuplicate217Kt" />
         <item itemvalue="Application.ContainsDuplicate217" />
         <item itemvalue="Application.Subsets_78" />
         <item itemvalue="Application.Zigzag_Conversion_6" />
         <item itemvalue="Application.Longest_Palindromic_Substring_5" />
-        <item itemvalue="Application.Remove_Duplicates_from_Sorted_Array_14" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +194,8 @@
       <workItem from="1687463098706" duration="123000" />
       <workItem from="1687595695596" duration="176000" />
       <workItem from="1687703348477" duration="417000" />
-      <workItem from="1687705030211" duration="2919000" />
+      <workItem from="1687705030211" duration="6807000" />
+      <workItem from="1687713058110" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="Незакончен №14.">
       <created>1678618011178</created>
@@ -247,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680626442094</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="217">
+      <created>1687708297362</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687708297362</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +300,8 @@
     <MESSAGE value="Completed 4" />
     <MESSAGE value="updated .gitignore" />
     <MESSAGE value="longest substring palindrome solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="longest substring palindrome solved" />
+    <MESSAGE value="217" />
+    <option name="LAST_COMMIT_MESSAGE" value="217" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

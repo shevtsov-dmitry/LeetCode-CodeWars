@@ -1,4 +1,4 @@
-package Leet_Code_Problems;
+package Leet_Code_Problems.Java;
 import java.util.Arrays;
 
 public class Median_Of_Two_Sorted_Arrays_4 {

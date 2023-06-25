@@ -1,4 +1,4 @@
-package Leet_Code_Problems;
+package Leet_Code_Problems.Java;
 
 import java.util.HashMap;
 import java.util.Map;
