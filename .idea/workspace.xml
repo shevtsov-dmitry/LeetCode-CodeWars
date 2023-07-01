@@ -4,38 +4,245 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e59cb576-2687-4b5d-840e-1f1affa62ccb" name="Changes" comment="217">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Kotlin/ContainsDuplicate217.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6e229f8892579583ffa615e7418708ccea7104b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d71ee8e62803cb40d47adf24fa12c81772d5d06f" beforeDir="false" />
+    <list default="true" id="e59cb576-2687-4b5d-840e-1f1affa62ccb" name="Changes" comment="268">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/02ddf5725f2ec9b67991423205d2b1a2009ccd06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26babf367e10c1ee3b85ffe300814167471b3167" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36500eddc3a00574bb172c8b9de465e0f370741d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3fbb92e5a77443bec3af0d364abd4c7557990b96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45bac22faddd310c19789343cb8b4e5ee7ba515b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/56f70ac30e7b5473259041a1f45df9ffa4586292" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64c15532c9ed26dc91de99ed225be3f9c683f170" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/6634b3c065a0848fe10094fd5d8f95d50a40998b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7d4a8495d4591defd8065a9bd959e156758de9a0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/967d5a84866676754228f13455d308679ace2d1d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5eb84cff4b52be2373e55597c90b3d02302ea6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0e78a5998b27aa172c5f95fc60f7e11adad7e3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/2/b200a512862ce5397b07a04c15c0247c94933bb3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b4bc92532a092811557a942d7b6ad0b58971ccb8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c13a5a0c74fa9a3647cddaf9dd441584b75c76b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1cdd5160f9bbf2664b854a4087f45790253b609" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdc434daeee688944ced38ff1c9875422db88382" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cdf1cf9e2d8f49d3c622a35b16b1f77b54effd21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf1ff0cd701b80a162fd624b60065a4d40ad69ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2695ff56a856b1ce7b007dac3fb056fc45d60b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d70368f00f4743bd7c3ffb73c863eeb91981d563" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd7b3350c29c49497756c7f32c69a3bed18b1cba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e31a5878faebaec5ced004a4c184ac0e8f01c842" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fee25770d00e20071b3f0509b32061a30ba76a8d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/2/02ddf5725f2ec9b67991423205d2b1a2009ccd06" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/6/26babf367e10c1ee3b85ffe300814167471b3167" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/6/36500eddc3a00574bb172c8b9de465e0f370741d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/f/3fbb92e5a77443bec3af0d364abd4c7557990b96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/5/45bac22faddd310c19789343cb8b4e5ee7ba515b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/6/56f70ac30e7b5473259041a1f45df9ffa4586292" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/4/64c15532c9ed26dc91de99ed225be3f9c683f170" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/6634b3c065a0848fe10094fd5d8f95d50a40998b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/d/7d4a8495d4591defd8065a9bd959e156758de9a0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/6/967d5a84866676754228f13455d308679ace2d1d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5eb84cff4b52be2373e55597c90b3d02302ea6a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/0/b0e78a5998b27aa172c5f95fc60f7e11adad7e3e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/2/b200a512862ce5397b07a04c15c0247c94933bb3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/4/b4bc92532a092811557a942d7b6ad0b58971ccb8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c13a5a0c74fa9a3647cddaf9dd441584b75c76b7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/1/c1cdd5160f9bbf2664b854a4087f45790253b609" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/d/cdc434daeee688944ced38ff1c9875422db88382" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/d/cdf1cf9e2d8f49d3c622a35b16b1f77b54effd21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/f/cf1ff0cd701b80a162fd624b60065a4d40ad69ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/2/d2695ff56a856b1ce7b007dac3fb056fc45d60b4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/7/d70368f00f4743bd7c3ffb73c863eeb91981d563" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/d/dd7b3350c29c49497756c7f32c69a3bed18b1cba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/3/e31a5878faebaec5ced004a4c184ac0e8f01c842" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/e/fee25770d00e20071b3f0509b32061a30ba76a8d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.bak_0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.devstyle/recent.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.monitor/myeclipse-usage.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/color-definitions-fix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.buildship.ui-1231266899.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.egit.ui-1849137576.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.epp.mpc.ui.css--1027399938.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.jdt.ui-326703266.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/colors-org.eclipse.pde.spy.css-1231266899.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/com.genuitec.eclipse.ui.common.platform/splash-fix.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/0/00262f355e13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1/80b52804e60d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/10/b0632a3c4b13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/14/b052aa817912001e10cedef226267798" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/16/5086e454f70d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1b/00d489186313001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/1d/90a4dd7b7912001e10cedef226267798" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/2/207702325e13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/20/80b6b11d7a12001e10cedef226267798" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/20/a038330f5f13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/29/c026e9056313001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/2b/20a0ba1cf70d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/2d/40025311f70d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3/80416689f60d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/33/d0920ad4f70d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/38/f070e505f70d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/39/108e968fe30d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/39/f03bc83b4a13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/3e/4068cb574a13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4/f0473a6f6113001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/42/4018e6ae5f13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/44/b0705404f70d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/48/90fe4108f70d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/48/d0ed45214b13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4a/201bcbcdf60d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4b/e08087cfe50d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4c/20907f965e13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4c/807e9ca84a13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/4f/a04ca140f70d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/58/90b96e404a13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5d/10edf0f4f60d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5d/b035f3bef60d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/5f/007800035e13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/6/30c1c3b55f13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/60/a05481d6f60d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/61/b019db656013001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/70/a00f536df60d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/79/4067b616f70d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/79/a0580cdf4a13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7e/d0b306bc7a12001e10cedef226267798" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/7f/50e006736113001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/8/f0227a9cf60d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/80/d0cc3141f70d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/83/80cb0ec05f13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/87/b0636154e30d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/88/b02324234b13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/91/b0407f605e13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/93/400724734b13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/97/7017010a4c13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/98/4076d57ee30d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/9e/6048a277e50d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a2/90f999c65d13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a3/306a6c827912001e10cedef226267798" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a3/604be13d5f13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a5/309253105e13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/a9/408d8350e30d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ad/003903de7912001e10cedef226267798" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ae/d07c6eb8e30d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/af/102288046113001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/b8/d09b06bfe40d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/c/5029e75d6113001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/cb/d0c3e3fe5d13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/cc/80ba43474b13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/cf/30f3cd166313001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d/207f94c85f13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d2/803fb0194b13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d5/208a65d87912001e10cedef226267798" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d7/9065a48de40d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/d8/500b55a35d13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/da/1012a1e8f60d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/da/80b7fded6013001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e/2080b1965f13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/e6/00b7b51b4c13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ed/f06976f54a13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ee/9062c13f4a13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/ee/c0be09517912001e10cedef226267798" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f3/b01b59fdf80d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/f8/4000c492e30d001e10d19d90143e0926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/fe/5031019e4a13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.history/fe/e088ce0f4c13001e1617f62248626f96" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/.indexes/e4/31/history.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/.indexes/e4/history.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/.markers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.eclipse.egit.core/GitProjectData.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/0/2/02c39f732510d90155ee2079188b615b724c8914" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/1/b/1b9898aa49ae4f78317173ae374fc8ec119a38dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/2/8/28bede3a8a8f924c96369ef46470dc2244965a33" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/5/2/52679ad30f7c5357150be17c4f3c0db034e1bc41" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/9/2/92554d76609038abe42afb48db8eb8c53996c24b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/9/a/9a8a1998da6bee0ac9336eac94bf3fbbc7cf3530" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/a/5/a5f63277f1da3f0feff2b61bcc69d4585623d1e1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/b/0/b034734fab1ebd2a1f2f840a4400be9860d9e499" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/c/c/ccaf8c04de370f805ec5e462185d4ff8b9c5ba7f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/d/6/d6e229f8892579583ffa615e7418708ccea7104b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/d/b/db2678870f5eb823b85eb126f9f99f25ea0a9fd0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/LeetCode/org.sonarlint.eclipse.core/issues/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Scratch/.markers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Scratch/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Scratch/org.sonarlint.eclipse.core/issues/1/e/1e3e989e424b7a194323ee0005cd943dec795e97" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Scratch/org.sonarlint.eclipse.core/issues/4/d/4d8655828997ac736d28c570c88d60ac62297573" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/Scratch/org.sonarlint.eclipse.core/issues/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/27.tree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/Best_Time_to_Buy_and_Sell_Stock_III_123.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/Best_Time_to_Buy_and_Sell_Stock_II_122.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/Combination_Sum_39.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/RecursionCheck.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/Rotate_Image_48.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/Single_Number_136.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/Subsets_78.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/Test.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.core/.launches/Word_Subsets_916.launch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.mpc.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.equinox.p2.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.help.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.help.ui/scope_sets/Default.pref" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.help.ui/scope_sets/the_44_e.hist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2010876528.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2065583463.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/2772403573.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/LeetCode/2023/6/24/refactorings.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/LeetCode/2023/6/24/refactorings.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/LeetCode/2023/6/25/refactorings.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/LeetCode/2023/6/25/refactorings.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.1.100.20230106-1511.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.search/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.jsdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/defender.check" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scratch/src/com/RecursionCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scratch/src/com/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scratch/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/MissingNumber268.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/ProductOfArrayExceptSelf238.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/6/d6e229f8892579583ffa615e7418708ccea7104b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/7/d71ee8e62803cb40d47adf24fa12c81772d5d06f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode-everyday.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode-everyday.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Best_Time_to_Buy_and_Sell_Stock_121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Best_Time_to_Buy_and_Sell_Stock_121.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Best_Time_to_Buy_and_Sell_Stock_III_123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Best_Time_to_Buy_and_Sell_Stock_III_123.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Best_Time_to_Buy_and_Sell_Stock_II_122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Best_Time_to_Buy_and_Sell_Stock_II_122.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Combination_Sum_39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Combination_Sum_39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/ContainsDuplicate217.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/ContainsDuplicate217.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Count_Unreachable_Pairs_of_Nodes_in_an_Undirected_Graph_2316.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Delete_Greatest_Value_in_Each_Row_2500.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Delete_Greatest_Value_in_Each_Row_2500.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Last_stone_weight_1046.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Last_stone_weight_1046.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Longest_Palindromic_Substring_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Longest_Palindromic_Substring_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Median_Of_Two_Sorted_Arrays_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Median_Of_Two_Sorted_Arrays_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Remove_Duplicates_from_Sorted_Array_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Remove_Duplicates_from_Sorted_Array_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Rotate_Image_48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Rotate_Image_48.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Single_Number_136.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Single_Number_136.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Solving_Questions_With_Brainpower_2140.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Solving_Questions_With_Brainpower_2140.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Subsets_78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Subsets_78.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Two_Sum_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Two_Sum_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Valid_Parentheses_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Valid_Parentheses_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Wildcard_Matching_44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Wildcard_Matching_44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Zigzag_Conversion_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/Zigzag_Conversion_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Kotlin/ContainsDuplicate217.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Kotlin/ContainsDuplicate217.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +252,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,14 +287,14 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shado/IdeaProjects/webOrderFoodProject&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shado/IdeaProjects/LeetCode&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -99,7 +306,12 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.ContainsDuplicate217Kt">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="ProductOfArrayExceptSelf238" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MissingNumber268">
     <configuration name="ContainsDuplicate217" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Java.ContainsDuplicate217" />
       <module name="LeetCode-everyday" />
@@ -113,9 +325,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Longest_Palindromic_Substring_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Longest_Palindromic_Substring_5" />
+    <configuration name="MissingNumber268" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Java.MissingNumber268" />
       <module name="LeetCode-everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leet_Code_Problems.Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductOfArrayExceptSelf238" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Java.ProductOfArrayExceptSelf238" />
+      <module name="LeetCode-everyday" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Leet_Code_Problems.Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,13 +364,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zigzag_Conversion_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zigzag_Conversion_6" />
-      <module name="LeetCode-everyday" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ContainsDuplicate217Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Kotlin.ContainsDuplicate217Kt" />
       <module name="LeetCode-everyday" />
@@ -149,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumber268" />
+        <item itemvalue="Application.ProductOfArrayExceptSelf238" />
         <item itemvalue="Kotlin.ContainsDuplicate217Kt" />
         <item itemvalue="Application.ContainsDuplicate217" />
         <item itemvalue="Application.Subsets_78" />
-        <item itemvalue="Application.Zigzag_Conversion_6" />
-        <item itemvalue="Application.Longest_Palindromic_Substring_5" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +419,13 @@
       <workItem from="1687595695596" duration="176000" />
       <workItem from="1687703348477" duration="417000" />
       <workItem from="1687705030211" duration="6807000" />
-      <workItem from="1687713058110" duration="213000" />
+      <workItem from="1687713058110" duration="5758000" />
+      <workItem from="1687774724246" duration="226000" />
+      <workItem from="1687804760861" duration="3206000" />
+      <workItem from="1687900844834" duration="197000" />
+      <workItem from="1687933509296" duration="37000" />
+      <workItem from="1688211278635" duration="5638000" />
+      <workItem from="1688234845064" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="Незакончен №14.">
       <created>1678618011178</created>
@@ -274,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687708297362</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactor">
+      <created>1687713445612</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687713445612</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +538,9 @@
     <MESSAGE value="updated .gitignore" />
     <MESSAGE value="longest substring palindrome solved" />
     <MESSAGE value="217" />
-    <option name="LAST_COMMIT_MESSAGE" value="217" />
+    <MESSAGE value="Refactor" />
+    <MESSAGE value="268" />
+    <option name="LAST_COMMIT_MESSAGE" value="268" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,0 +1,60 @@
+
+v
+java:S1192T"GDefine a constant instead of duplicating this literal "\t R: " 3 times.(¦î›üHàRCRITICALZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªãÒÇHäRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•ÒØ¥üÿÿÿÿHåRMINORZ
+CODE_SMELL
+d	java:S106
+"9Replace this use of System.out or System.err by a logger.(šåíŽHæRMAJORZ
+CODE_SMELL
+l	java:S125"<This block of commented-out lines of code should be removed.(ýÍ¯ÇþÿÿÿÿHçRMAJORZ
+CODE_SMELL
+
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 43 to the 15 allowed.(Üö¬ÕHéRCRITICALZ
+CODE_SMELL
+P	java:S131""Add a default case to this switch.(•ÏH‚RCRITICALZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(šØŽ½HƒRMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(œÞ®ÝþÿÿÿÿH„RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(·©Û†H…RMAJORZ
+CODE_SMELL
+T	java:S108")Either remove or fill this block of code.(úÈÒäH†RMAJORZ
+CODE_SMELL
+Y	java:S108")Either remove or fill this block of code.(·©µãÿÿÿÿÿH‡RMAJORZ
+CODE_SMELL
+Y	java:S108 ")Either remove or fill this block of code.(®àÄ¶øÿÿÿÿHˆRMAJORZ
+CODE_SMELL
+Y	java:S108"")Either remove or fill this block of code.(·©µãÿÿÿÿÿH‰RMAJORZ
+CODE_SMELL
+T	java:S108#")Either remove or fill this block of code.(Ç—ÈíHŠRMAJORZ
+CODE_SMELL
+Y	java:S108%")Either remove or fill this block of code.(·©µãÿÿÿÿÿH‹RMAJORZ
+CODE_SMELL
+M
+java:S11160"Remove this empty statement.(ôŸŽìúÿÿÿÿHŒRMINORZ
+CODE_SMELL
+M
+java:S1116?"Remove this empty statement.(ôŸŽìúÿÿÿÿHŽRMINORZ
+CODE_SMELL
+M
+java:S1116N"Remove this empty statement.(ôŸŽìúÿÿÿÿHRMINORZ
+CODE_SMELL
+d	java:S106T"9Replace this use of System.out or System.err by a logger.(¦î›üH’RMAJORZ
+CODE_SMELL
+i	java:S106U"9Replace this use of System.out or System.err by a logger.(àõ±ýÿÿÿÿH“RMAJORZ
+CODE_SMELL
+d	java:S106V"9Replace this use of System.out or System.err by a logger.(„”–H”RMAJORZ
+CODE_SMELL
+\
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒH•RMINORZ
+CODE_SMELL
+Z
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›H—RMINORZ
+CODE_SMELL
+ñ
+java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 70 to 64, Complexity from 25 to 14, Nesting Level from 4 to 2, Number of Variables from 20 to 6.(Üö¬ÕH™RINFOZ
+CODE_SMELL

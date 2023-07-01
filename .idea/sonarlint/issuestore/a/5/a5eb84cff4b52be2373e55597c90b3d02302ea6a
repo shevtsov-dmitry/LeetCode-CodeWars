@@ -1,0 +1,12 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ξ³…Ά8Ο”Κ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Β²θωÿÿÿÿ8Ò”Κ1
+U
+java:S1854"8Remove this useless assignment to local variable "wing".(εƒ’²8ο”Κ1
+F
+java:S1481")Remove this unused "wing" local variable.(εƒ’²8τ”Κ1
+U
+java:S1172"3Remove these unused method parameters "n", "edges".(Ά•¬ωÿÿÿÿ8ω”Κ1
+]	java:S125"<This block of commented-out lines of code should be removed.(­ώ°ώÿÿÿÿ8ϊ”Κ1
+K
+java:S1068	")Remove this unused "graph" private field.(»‚®όÿÿÿÿ8ύ”Κ1

@@ -1,0 +1,57 @@
+package Leet_Code_Problems;
+
+import java.util.Arrays;
+import java.util.Iterator;
+
+public class Rotate_Image_48 {
+	public static void main(String[] args) {
+		/*
+		 * input [1,2,3], [4,5,6], [7,8,9]
+		 */
+		/*
+		 * output [7,4,1], [8,5,2], [9,6,3]
+		 */
+		int[][] arr = new int[3][];
+		arr[0] = new int[] { 1, 2, 3 };
+		arr[1] = new int[] { 4, 5, 6 };
+		arr[2] = new int[] { 7, 8, 9 };
+
+		System.out.println("Before rotation:");
+		for (int[] value : arr) {
+			System.out.println(Arrays.toString(value));
+		}
+		rotate(arr);
+		System.out.println("After rotate:");
+		for (int[] ints : arr) {
+			System.out.println(Arrays.toString(ints));
+		}
+	}
+
+	public static void rotate(int[][] matrix) {
+		// t - top, b - bottom 
+		// l - left, r - right
+		int l = 0;
+		int r = matrix.length-1;
+		while(l < r) {
+			int t = l, b = r;
+			
+			for (int i = l; i < r; i++) {
+				int tl = matrix[t][l + i],
+					tr = matrix[t + i][r],
+					br = matrix[b][r - i],
+					bl = matrix[b - i][l];
+				
+
+				matrix[t][r] = tl;
+				matrix[b][r] = tr;
+				matrix[b][l] = br;
+				matrix[t][l] = bl;
+				
+			}
+			
+			l++;
+			r--;
+		}
+	}
+
+}
