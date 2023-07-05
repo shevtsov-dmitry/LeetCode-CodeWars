@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e59cb576-2687-4b5d-840e-1f1affa62ccb" name="Changes" comment="35">
+    <list default="true" id="e59cb576-2687-4b5d-840e-1f1affa62ccb" name="Changes" comment="349">
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/FirstBadVersion278.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/IntersectionOfTwoArrays349.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch/src/com/RecursionCheck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch/src/com/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scratch/src/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18917495e613f58ab9a8d1710015dee8e64ed5ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3fbb92e5a77443bec3af0d364abd4c7557990b96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/4554148cfaeb3e21fc2f4fa3c723ef58bdc7e621" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/6634b3c065a0848fe10094fd5d8f95d50a40998b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c33abcfb44362bbe86f8bad39c0c0f7d074363b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc5b7584b56be7fc5494ed46a1274c68bbdd19ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf1ff0cd701b80a162fd624b60065a4d40ad69ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2041c6991b99737a6976dc0992ac620df257e10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2695ff56a856b1ce7b007dac3fb056fc45d60b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d949eb8b256ad555b0babdf1099926b54c4c2456" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/8/18917495e613f58ab9a8d1710015dee8e64ed5ad" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/f/3fbb92e5a77443bec3af0d364abd4c7557990b96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/5/4554148cfaeb3e21fc2f4fa3c723ef58bdc7e621" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/6/6634b3c065a0848fe10094fd5d8f95d50a40998b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/3/c33abcfb44362bbe86f8bad39c0c0f7d074363b7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/c/cc5b7584b56be7fc5494ed46a1274c68bbdd19ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/f/cf1ff0cd701b80a162fd624b60065a4d40ad69ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/2/d2041c6991b99737a6976dc0992ac620df257e10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/2/d2695ff56a856b1ce7b007dac3fb056fc45d60b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/9/d949eb8b256ad555b0babdf1099926b54c4c2456" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode-everyday.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode-everyday.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/SearchInsertPosition35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Leet_Code_Problems/Java/SearchInsertPosition35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scratches/Scratch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scratches/bubblesort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scratches/bubblesort.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scratches/noBoringZeroes.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +59,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/lang/System.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/util/Arrays.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.7/lib/src.zip!/java.base/java/util/List.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="uwp6ro7z" />
@@ -46,42 +75,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/shado/IdeaProjects/LeetCode",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shado/IdeaProjects/LeetCode&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="ProductOfArrayExceptSelf238" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchInsertPosition35">
-    <configuration name="MissingNumber268" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Java.MissingNumber268" />
+  <component name="RunManager" selected="Application.IntersectionOfTwoArrays349">
+    <configuration name="IntersectionOfTwoArrays349" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Java.IntersectionOfTwoArrays349" />
       <module name="LeetCode-everyday" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf238" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Java.ProductOfArrayExceptSelf238" />
+    <configuration name="MissingNumber268" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Leet_Code_Problems.Java.MissingNumber268" />
       <module name="LeetCode-everyday" />
       <extension name="coverage">
         <pattern>
@@ -141,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfTwoArrays349" />
         <item itemvalue="Application.SearchInsertPosition35" />
         <item itemvalue="Kotlin.BubblesortKt" />
         <item itemvalue="Application.noBoringZeroes" />
         <item itemvalue="Application.MissingNumber268" />
-        <item itemvalue="Application.ProductOfArrayExceptSelf238" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +223,13 @@
       <workItem from="1687933509296" duration="37000" />
       <workItem from="1688211278635" duration="5638000" />
       <workItem from="1688234845064" duration="4422000" />
-      <workItem from="1688290189397" duration="7501000" />
+      <workItem from="1688290189397" duration="7807000" />
+      <workItem from="1688327915703" duration="346000" />
+      <workItem from="1688328962349" duration="254000" />
+      <workItem from="1688368858012" duration="196000" />
+      <workItem from="1688551187205" duration="6210000" />
+      <workItem from="1688558782331" duration="389000" />
+      <workItem from="1688559199358" duration="207000" />
     </task>
     <task id="LOCAL-00001" summary="Незакончен №14.">
       <created>1678618011178</created>
@@ -294,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688311926371</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="git ignore update">
+      <created>1688312041764</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1688312041764</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +366,8 @@
     <MESSAGE value="Refactor" />
     <MESSAGE value="268" />
     <MESSAGE value="35" />
-    <option name="LAST_COMMIT_MESSAGE" value="35" />
+    <MESSAGE value="git ignore update" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignore update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
