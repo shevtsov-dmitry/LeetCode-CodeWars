@@ -1,35 +1,0 @@
-
-]
-java:S1192T"GDefine a constant instead of duplicating this literal "\t R: " 3 times.(¦î›ü
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªãÒÇ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Â²èùÿÿÿÿ
-N	java:S106
-"9Replace this use of System.out or System.err by a logger.(šåí
-V	java:S125"<This block of commented-out lines of code should be removed.(ıÍ¯Çşÿÿÿÿ
-h
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 43 to the 15 allowed.(Üö¬Õ
-7	java:S131""Add a default case to this switch.(•Ï
-N	java:S106"9Replace this use of System.out or System.err by a logger.(šØ½
-S	java:S106"9Replace this use of System.out or System.err by a logger.(œŞ®İşÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(·©Û†
->	java:S108")Either remove or fill this block of code.(úÈÒä
-C	java:S108")Either remove or fill this block of code.(·©µãÿÿÿÿÿ
-C	java:S108 ")Either remove or fill this block of code.(®àÄ¶øÿÿÿÿ
-C	java:S108"")Either remove or fill this block of code.(·©µãÿÿÿÿÿ
->	java:S108#")Either remove or fill this block of code.(Ç—Èí
-C	java:S108%")Either remove or fill this block of code.(·©µãÿÿÿÿÿ
-7
-java:S11160"Remove this empty statement.(ôŸìúÿÿÿÿ
-7
-java:S1116?"Remove this empty statement.(ôŸìúÿÿÿÿ
-7
-java:S1116N"Remove this empty statement.(ôŸìúÿÿÿÿ
-N	java:S106T"9Replace this use of System.out or System.err by a logger.(¦î›ü
-S	java:S106U"9Replace this use of System.out or System.err by a logger.(àõ±ıÿÿÿÿ
-N	java:S106V"9Replace this use of System.out or System.err by a logger.(„”–
-F
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
-D
-java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›
-Ü
-java:S6541"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 70 to 64, Complexity from 25 to 14, Nesting Level from 4 to 2, Number of Variables from 20 to 6.(Üö¬Õ

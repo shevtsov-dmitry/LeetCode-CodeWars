@@ -1,18 +1,0 @@
-
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Β²θωÿÿÿÿ8†¦τυ1
-]	java:S125"<This block of commented-out lines of code should be removed.(Ω†Θϋÿÿÿÿ8³¦τυ1
-^
-java:S1854"BRemove this useless assignment to local variable "backwardsIndex".(‰ώ’O8Òφυ1
-W
-java:S1854":Remove this useless assignment to local variable "resArr".(σβ—°8Έ¦τυ1
-H
-java:S1481"+Remove this unused "resArr" local variable.(σβ—°8Ό¦τυ1
-O
-java:S1481"3Remove this unused "backwardsIndex" local variable.(‰ώ’O8Òφυ1
-J	java:S108")Either remove or fill this block of code.(ΨΥ—©ύÿÿÿÿ8«ΰψυ1
-C
-java:S1168"&Return an empty array instead of null.(¥Ήο8±»ρ“‘1
-L
-java:S1128"*Remove this unused import 'java.util.Map'.(Όθ½Òώÿÿÿÿ8ΪΡυυ1
-X
-java:S1128"6Remove this unused import 'java.util.StringTokenizer'.(ΘΔ¬ρώÿÿÿÿ8ΪΡυυ1

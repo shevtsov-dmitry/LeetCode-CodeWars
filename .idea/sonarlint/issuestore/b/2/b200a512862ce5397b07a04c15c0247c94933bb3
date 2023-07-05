@@ -1,7 +1,0 @@
-
-g	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Í¶ôüÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Â²èùÿÿÿÿ
-C
-java:S1172"-Remove this unused method parameter "target".(ä©Ã‹
-Q	java:S125 "<This block of commented-out lines of code should be removed.(•˜çï
-P	java:S125("<This block of commented-out lines of code should be removed.(›­ê_
