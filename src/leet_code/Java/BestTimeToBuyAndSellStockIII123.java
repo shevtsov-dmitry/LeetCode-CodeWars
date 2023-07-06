@@ -13,7 +13,7 @@ public class BestTimeToBuyAndSellStockIII123 {
 	}
 
 	public static int maxProfitF(int[] prices) {
-		int hold1 = Integer.MINVALUE, hold2 = Integer.MINVALUE;
+		int hold1 = Integer.MIN_VALUE, hold2 = Integer.MIN_VALUE;
 		int release1 = 0, release2 = 0;
 		for (int i : prices) { // Assume we only have 0 money at first
 			release2 = Math.max(release2, hold2 + i); // The maximum if we've just sold 2nd stock so far.

@@ -8,7 +8,7 @@ public final class BestTimeToBuyAndSellStock121 {
 	}
 	
 	public static int maxProfit(int[] prices) {
-		int buy = Integer.MAXVALUE;
+		int buy = Integer.MAX_VALUE;
 		int sell = 0;
 		for (int i = 0; i < prices.length; i++) {
 			int currentPrice = prices[i];

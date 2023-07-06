@@ -9,7 +9,7 @@ public class BestTimeToBuyAndSellStockII122 {
 	}
 	public static int maxProfit(int[] prices) {
 		int overallProfit = 0;
-		int buy = Integer.MAXVALUE;
+		int buy = Integer.MAX_VALUE;
 		int sell = 0;
 		
 		for (int i = 0; i < prices.length - 1; i++) {
@@ -24,7 +24,7 @@ public class BestTimeToBuyAndSellStockII122 {
 				
 				// reset to default values
 				sell = 0;
-				buy = Integer.MAXVALUE;
+				buy = Integer.MAX_VALUE;
 			}
 			if(i == prices.length - 2 && currentElem < nextElem){
 				overallProfit += nextElem - buy;
