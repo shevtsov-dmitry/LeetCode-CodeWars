@@ -1,4 +1,4 @@
-package leetcode.Java;
+package leet_code.Java;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -80,8 +80,8 @@ public class WildcardMatching44 {
         System.out.println("sb: " + sb +"\t" + "p: " +p);
         return sb.toString().equals(p);
     }
-    // solution from leetcode c++ and chatgpt parsing
-    public static boolean isMatchingLeetCode(String s, String p) {
+    // solution from leet_code c++ and chatgpt parsing
+    public static boolean isMatchingleet_code(String s, String p) {
         int pSize = p.length();
         int cSize = s.length();
         List<Boolean> arr = new ArrayList<>(Collections.nCopies(cSize + 1, false));

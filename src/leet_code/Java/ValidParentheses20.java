@@ -1,4 +1,4 @@
-package leetcode.Java;
+package leet_code.Java;
 import java.util.LinkedList;
 
 public class ValidParentheses20 {

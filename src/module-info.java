@@ -5,7 +5,7 @@
  * @author shado
  *
  */
-module LeetCode {
+module leet_code {
 	requires java.base;
     requires kotlin.stdlib;
 }
