@@ -26,3 +26,6 @@ bin/
 .idea\
 leet_code-everyday.iml
 
+### CMAKE ###
+cmake-build-debug
+CMakeLists.txt
