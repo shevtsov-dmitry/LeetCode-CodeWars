@@ -1,14 +1,33 @@
 package leet_code.Java;
 import java.util.LinkedList;
+import java.util.Stack;
 
 public class ValidParentheses20 {
-    public static void main(String[] args) {
-        //System.out.println("case 2: " + isValid(")("));
-        //System.out.println( "case 3: " + isValid("()()"));
-        System.out.println(isValid("()"));
-        //
-    }
+
     public static boolean isValid(String s) {
+        Stack<Character> stack = new Stack<>();
+        for (char currentChar : s.toCharArray()) {
+            if(currentChar == '(' || currentChar == '[' || currentChar == '{'){
+                stack.push(currentChar);
+            }
+            else if(stack.isEmpty()){
+                return false;
+            }
+            else if(currentChar == ')' && stack.peek() == '('
+                    || currentChar == ']' && stack.peek() == '['
+                    || currentChar == '}' && stack.peek() == '{'){
+                stack.pop();
+            }
+            else{
+                return false;
+            }
+
+        }
+        return stack.isEmpty();
+    }
+
+    // ! OLD VERSION
+    public static boolean isValidOld(String s) {
         var roundBrackets = new LinkedList<Character>();
         var squareBrackets = new LinkedList<Character>();
         var curlyBrackets = new LinkedList<Character>();
