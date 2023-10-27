@@ -26,6 +26,33 @@ public class ValidParentheses20 {
         return stack.isEmpty();
     }
 
+    // BACK TO IT THIRD TIME
+    public static boolean isValid3(String parentheses) {
+        if (parentheses.length() == 0 || parentheses.length() == 1)
+            return false;
+
+        char[] chars = parentheses.toCharArray();
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < chars.length; i++) {
+            char par = chars[i];
+            if (i == 0) {
+                stack.push(par);
+            } else if (par == ')' && stack.isEmpty() ||
+                    par == ']' && stack.isEmpty() ||
+                    par == '}' && stack.isEmpty()) {
+                return false;
+            } else if ((par == ')' && stack.peek() == '(')
+                    || (par == ']' && stack.peek() == '[')
+                    || (par == '}' && stack.peek() == '{')) {
+                stack.pop();
+            } else if (par == '(' || par == '[' || par == '{') {
+                stack.push(par);
+            } else
+                return false;
+        }
+        return stack.isEmpty();
+    }
+
     // ! OLD VERSION
     public static boolean isValidOld(String s) {
         var roundBrackets = new LinkedList<Character>();
