@@ -1,4 +1,4 @@
-package code_wars.java;
+package code_wars.java.common;
 
 import java.util.ArrayList;
 import java.util.Arrays;

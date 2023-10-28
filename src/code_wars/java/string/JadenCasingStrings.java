@@ -1,4 +1,4 @@
-package code_wars.java
+package code_wars.java.string;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 
-public class CLAS {
+public class JadenCasingStrings {
 	public static void main(String[] args) {
 //		Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
 //     Jaden-Cased:     "How Can Mirrors Be Real If Our Eyes Aren't Real"
@@ -26,4 +26,3 @@ public class CLAS {
 		return sb.toString();
 	}
 }
-

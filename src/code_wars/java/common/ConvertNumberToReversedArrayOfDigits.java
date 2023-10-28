@@ -1,7 +1,6 @@
-package code_wars;
+package code_wars.java.common;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 import static java.lang.String.valueOf;
 

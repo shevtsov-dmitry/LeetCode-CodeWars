@@ -1,4 +1,4 @@
-package code_wars.java;
+package code_wars.java.stack_queue_bag;
 
 import java.util.Arrays;
 import java.util.LinkedList;

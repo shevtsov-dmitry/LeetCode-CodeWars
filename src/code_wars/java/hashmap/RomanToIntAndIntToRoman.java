@@ -1,4 +1,4 @@
-package code_wars.java;
+package code_wars.java.hashmap;
 
 import java.util.*;
 

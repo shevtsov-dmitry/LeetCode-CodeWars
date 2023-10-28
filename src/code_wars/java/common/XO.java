@@ -1,4 +1,4 @@
-package code_wars;
+package code_wars.java.common;
 
 public class XO {
     public static void main(String[] args) {
