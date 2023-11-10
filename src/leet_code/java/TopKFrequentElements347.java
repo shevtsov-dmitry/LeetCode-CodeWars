@@ -16,7 +16,6 @@ public class TopKFrequentElements347 {
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
-        System.out.println("map = " + map);
         List<Integer> maxOccurrences = new ArrayList<>();
         for (int i = 0; i < k; i++) {
             int max = Integer.MIN_VALUE;
