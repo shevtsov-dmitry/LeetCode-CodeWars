@@ -1,8 +1,6 @@
 package code_wars.java;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.LinkedList;
+import java.util.*;
 
 public class IntervalOverlap {
     /*
@@ -12,37 +10,31 @@ public class IntervalOverlap {
 
    expect equals 7
    */
-    public static int[][] mergeIntervals(int[][] intervals) {
-        if (intervals == null || intervals.length <= 1) {
-            return intervals;
-        }
+    public static int mergeIntervals(int[][] intervals) {
+        Arrays.sort(intervals, Comparator.comparingInt(e -> e[0]));
+        Deque<int[]> stack = new ArrayDeque<>();
 
-        // Step 1: Sort intervals based on start points
-        Arrays.sort(intervals, Comparator.comparingInt(interval -> interval[0]));
-        System.out.println("intervals = " + Arrays.deepToString(intervals));
-        // Step 2: Merge overlapping intervals
-        LinkedList<int[]> mergedIntervals = new LinkedList<>();
         for (int[] interval : intervals) {
-            if (mergedIntervals.isEmpty() || mergedIntervals.getLast()[1] < interval[0]) {
-                // No overlap, add the interval to the result
-                mergedIntervals.add(interval);
+            if (!stack.isEmpty() && stack.peek()[1] >= interval[0]) {
+                int[] popped = stack.pop();
+                popped[1] = interval[1];
+                stack.push(popped);
             } else {
-                // Overlap, merge intervals
-                mergedIntervals.getLast()[1] = Math.max(mergedIntervals.getLast()[1], interval[1]);
+                stack.push(interval);
             }
         }
 
-        return mergedIntervals.toArray(new int[mergedIntervals.size()][]);
+        int sum = 0;
+        for (int[] arr : stack) {
+            sum += arr[1] - arr[0];
+        }
+        return sum;
     }
+
 
     public static void main(String[] args) {
         int[][] intervals = {{7, 10}, {3, 5}, {1, 4}};
-        int[][] mergedIntervals = mergeIntervals(intervals);
-
-        // Print the merged intervals
-        for (int[] interval : mergedIntervals) {
-            System.out.println(Arrays.toString(interval));
-        }
+        mergeIntervals(intervals);
     }
 
 
