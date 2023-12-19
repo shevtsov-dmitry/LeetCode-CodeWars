@@ -5,8 +5,7 @@ import java.util.List;
 
 public class Subsets78 {
 
-	public static void main(String[] args) {
-		subsets(new int[] { 1, 2, 3 });
+	public static void main(string[] args) { subsets(new int[] { 1, 2, 3 });
 
 	}
 

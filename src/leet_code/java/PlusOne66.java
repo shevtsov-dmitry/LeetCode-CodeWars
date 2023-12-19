@@ -5,6 +5,7 @@ import java.util.Arrays;
 
 public class PlusOne66 {
     public static void main(String[] args) {
+        System.out.println("NONONO");
         int[] arr = betterPlusOne(new int[]{1,2,3});
         int[] nine = betterPlusOne(new int[]{9,9});
         System.out.println("arr = " + Arrays.toString(arr));

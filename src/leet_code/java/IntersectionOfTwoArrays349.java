@@ -15,7 +15,6 @@ public class IntersectionOfTwoArrays349 {
         Set<Integer> numsSet2 = new HashSet<>();
         Arrays.stream(nums1).forEach(numsSet1::add);
         Arrays.stream(nums2).forEach(numsSet2::add);
-
         // store similar values to new list
         List<Integer> list = new ArrayList<>();
         for (Integer val : numsSet1) {
