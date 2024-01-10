@@ -2,6 +2,7 @@ package code_wars.java.hashmap;
 
 import java.util.*;
 
+
 public class RomanToIntAndIntToRoman {
     /* to roman:
             2000 -> "MM"
@@ -86,7 +87,7 @@ public class RomanToIntAndIntToRoman {
     private static void findNumParts(Stack<Integer> stack, Stack<Integer> arabicRepresentationNums, int n) {
         while (n >= 0) {
             if (arabicRepresentationNums.isEmpty()) {
-                System.out.println(STR. "arabicRepresentationNums is empty but n != 0. n = \{ n }" );
+//                System.out.println(STR. "arabicRepresentationNums is empty but n != 0. n = \{ n }" );
                 break;
             } else if (n - arabicRepresentationNums.peek() >= 0) {
                 n -= arabicRepresentationNums.peek();
