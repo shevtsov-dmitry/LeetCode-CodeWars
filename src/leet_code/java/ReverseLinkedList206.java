@@ -4,22 +4,19 @@ public class ReverseLinkedList206 {
 
     public static void main(String[] args) {
         ListNode node = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4))));
-        node = reverseNodeIteratevely(node);
+        node = recur(node, null);
         print(node);
     }
 
-    private static ListNode reverseNodeIteratevely(ListNode head) {
-        ListNode previous = null;
-        ListNode current = head;
-        while (current != null) {
-            ListNode tempo = current.next;
-            current.next = previous;
-            previous = current;
-            current = tempo;
-
+    private static ListNode recur(ListNode current, ListNode reversed) {
+        if (current == null) {
+            return reversed;
         }
-        return previous;
+        ListNode tempo = current.next;
+        current.next = reversed;
+        return recur(tempo, current);
     }
+
 
     private static void print(ListNode node) {
         StringBuilder sb = new StringBuilder();
