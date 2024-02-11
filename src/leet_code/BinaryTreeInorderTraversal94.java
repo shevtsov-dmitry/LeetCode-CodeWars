@@ -3,47 +3,50 @@ package leet_code.java;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * BinaryTreeInorderTraversal94
+ */
 public class BinaryTreeInorderTraversal94 {
-    public static void main(String[] args) {
-//        Node node = new Node(1);
-//        node.right = new Node(2);
-//        node.right.left = new Node(3);
-        Node node = new Node(1);
-        node.right = new Node(3);
-        node.right.right = new Node(6);
-        node.left = new Node(2);
-        node.left.left = new Node(4);
-        node.left.right = new Node(5);
-        var list = inorderTraversal(node);
-        System.out.println("list = " + list);
+  public static void main(String[] args) {
+    TreeNode node = new TreeNode();
+    node.val = 1;
+    node.right = new TreeNode(2);
+    node.right.left = new TreeNode(3);
+    inorderTraversal(node);
+  }
+
+  public static List<Integer> inorderTraversal(TreeNode root) {
+    List<Integer> list = new ArrayList<>();
+    traverse(root, list);
+    System.out.println(list);
+    return list;
+
+  }
+
+  public static void traverse(TreeNode node, List<Integer> list) {
+    if (node != null) {
+      traverse(node.left, list);
+      list.add(node.val);
+      traverse(node.right, list);
+    }
+  }
+
+  static class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode() {
     }
 
-    private static List<Integer> inorderTraversal(Node node) {
-        List<Integer> result = new ArrayList<>();
-        traverse(node, result);
-        return result;
+    TreeNode(int val) {
+      this.val = val;
     }
 
-    //    Output: [1,3,2]
-    private static void traverse(Node node, List<Integer> list) {
-//        if(node.left == null && node.right == null) return;
-        if(node == null) return;
-        traverse(node.left, list);
-        list.add(node.val);
-        traverse(node.right, list);
+    TreeNode(int val, TreeNode left, TreeNode right) {
+      this.val = val;
+      this.left = left;
+      this.right = right;
     }
-
-
-    static class Node {
-        Node right;
-        Node left;
-        int val;
-
-        public Node() {
-        }
-
-        public Node(int val) {
-            this.val = val;
-        }
-    }
+  }
 }
