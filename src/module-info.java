@@ -7,5 +7,4 @@
  */
 module leet_code {
 	requires java.base;
-	requires clojure;
 }

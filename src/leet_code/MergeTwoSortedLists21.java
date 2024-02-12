@@ -2,7 +2,6 @@ package leet_code.java;
 
 import java.util.*;
 
-import sun.awt.resources.awt;
 
 public class MergeTwoSortedLists21 {
   public static void main(String[] args) {

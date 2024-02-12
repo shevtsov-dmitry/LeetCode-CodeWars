@@ -7,9 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Clojure-1.9.0" level="project" />
-  </component>
-  <component name="SonarLintModuleSettings">
-    <option name="uniqueId" value="4a369a23-9293-44f0-bca9-90a9894f4cb4" />
   </component>
 </module>
