@@ -1,5 +1,4 @@
-package leet_code;
+void main(){
 
-public class SameTree100 {
-
+}
 
