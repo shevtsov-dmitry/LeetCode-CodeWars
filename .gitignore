@@ -1,6 +1,7 @@
 ### IntelliJ IDEA ###
 out
 .idea
+*.iml
 
 ### Eclipse ###
 .apt_generated
@@ -23,11 +24,8 @@ bin/
 ### METADATA ###
 .metadataout\
 .metadata\
-.idea\
 leet_code-everyday.iml
 
 ### CMAKE ###
 cmake-build-debug
 CMakeLists.txt
-
-*.iml

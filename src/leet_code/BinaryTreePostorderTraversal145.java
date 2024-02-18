@@ -6,23 +6,22 @@ import java.util.List;
 /**
  * BinaryTreePostorderTraversal145
  */
-public class BinaryTreePostorderTraversal145 {
 
-  public static void main(String[] args) {
+void main() {
     TreeNode treeNode = new TreeNode(1);
     treeNode.right = new TreeNode(2);
     treeNode.right.left = new TreeNode(3);
     postorderTraversal(treeNode);
   }
 
-  public static List<Integer> postorderTraversal(TreeNode node) {
+   List<Integer> postorderTraversal(TreeNode node) {
     List<Integer> list = new ArrayList<>();
     traverse(node, list);
     System.out.println(list);
     return list;
   }
 
-  public static void traverse(TreeNode node, List<Integer> list) {
+   void traverse(TreeNode node, List<Integer> list) {
     if (node != null) {
       traverse(node.left, list);
       traverse(node.right, list);
@@ -30,7 +29,7 @@ public class BinaryTreePostorderTraversal145 {
     }
   }
 
-  static class TreeNode {
+   class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -48,4 +47,4 @@ public class BinaryTreePostorderTraversal145 {
       this.right = right;
     }
   }
-}
+

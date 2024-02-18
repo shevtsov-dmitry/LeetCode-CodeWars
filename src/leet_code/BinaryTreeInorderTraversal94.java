@@ -1,4 +1,3 @@
-package leet_code;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +5,7 @@ import java.util.List;
 /**
  * BinaryTreeInorderTraversal94
  */
-public class BinaryTreeInorderTraversal94 {
-  public static void main(String[] args) {
+void main() {
     TreeNode node = new TreeNode();
     node.val = 1;
     node.right = new TreeNode(2);
@@ -15,7 +13,7 @@ public class BinaryTreeInorderTraversal94 {
     inorderTraversal(node);
   }
 
-  public static List<Integer> inorderTraversal(TreeNode root) {
+  public List<Integer> inorderTraversal(TreeNode root) {
     List<Integer> list = new ArrayList<>();
     traverse(root, list);
     System.out.println(list);
@@ -23,7 +21,7 @@ public class BinaryTreeInorderTraversal94 {
 
   }
 
-  public static void traverse(TreeNode node, List<Integer> list) {
+  public void traverse(TreeNode node, List<Integer> list) {
     if (node != null) {
       traverse(node.left, list);
       list.add(node.val);
@@ -31,7 +29,7 @@ public class BinaryTreeInorderTraversal94 {
     }
   }
 
-  static class TreeNode {
+  class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
@@ -49,4 +47,4 @@ public class BinaryTreeInorderTraversal94 {
       this.right = right;
     }
   }
-}
+

@@ -1,7 +1,6 @@
-package leet_code.java;
+package leet_code;
 
 import java.util.*;
-
 
 public class MergeTwoSortedLists21 {
   public static void main(String[] args) {
