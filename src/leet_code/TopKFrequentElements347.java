@@ -1,59 +1,35 @@
-package leet_code.java;
-
 import java.util.*;
 
-public class TopKFrequentElements347 {
-    public static void main(String[] args) {
-        int[] nums = new int[]{1,1,1,2,2,3};
-        int[] topKFrequent = topKFrequent(nums, 2);
-        System.out.println("topKFrequent = " + Arrays.toString(topKFrequent));
+void main() {
+//    Any order allowed
+//    Input: nums = [1,1,1,2,2,3], k = 2
+//    Output: [1,2]
+//    int[] nums = {4, 1, -1, 2, -1, 2, 3};
+    int[] nums = {1,1,1,2,2,3};
+    int[] ints = topKFrequent(nums, 2);
+    System.out.println(Arrays.toString(ints));
+}
+
+public int[] topKFrequent(int[] nums, int k) {
+    Map<Integer, Integer> map = new HashMap<>();
+    Arrays.stream(nums)
+            .forEach(num -> map.put(num, map.getOrDefault(num, 0) + 1));
+    List<Integer>[] buckets = new List[(int) Math.pow(10, 5)];
+    for (Map.Entry<Integer, Integer> kv : map.entrySet()) {
+        Integer key = kv.getKey();
+        Integer value = kv.getValue();
+        if(buckets[value] == null) {
+            buckets[value] = new ArrayList<>();
+        }
+        buckets[value].add(key);
     }
-    /*Input: nums = [1,1,1,2,2,3], k = 2
-    Output: [1,2]*/
-    public static int[] topKFrequent(int[] nums, int k) {
-        if(Arrays.equals(nums, new int[]{3, 2, 3, 1, 2, 4, 5, 5, 6, 7, 7, 8, 2, 3, 1, 1, 1, 10, 11, 5, 6, 2, 4, 7, 8, 5, 6}))
-            return new int[]{1,2,5,3,6,7,4,8,10,11};
-
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int num : nums) {
-            map.put(num, map.getOrDefault(num, 0) + 1);
+    List<Integer> resultat = new ArrayList<>(k);
+    int times = 0;
+    for (int i = buckets.length - 1; i >= 0; i--) {
+        if(buckets[i] != null && times < k) {
+            resultat.addAll(buckets[i]);
+            times++;
         }
-
-        ArrayList<Integer>[] arr = new ArrayList[100000];
-        Queue<Integer> queue = new PriorityQueue<>(Comparator.reverseOrder());
-        queue.addAll(map.values());
-        ArrayList<Integer> maxValues = new ArrayList<>();
-
-        int saveMaxValue = 0;
-        for (int i = 0; i < k; i++) {
-            if(i > queue.size()) break;
-            maxValues.add(queue.poll());
-            if(i == 0){
-                saveMaxValue = maxValues.get(0);
-            }
-        }
-
-        for (Map.Entry<Integer, Integer> keyValue : map.entrySet()) {
-            Integer key = keyValue.getKey();
-            Integer value = keyValue.getValue();
-            if(maxValues.contains(value)){
-                if(arr[value] == null){
-                    arr[value] = new ArrayList<>();
-                    arr[value].add(key);
-                } else {
-                    arr[value].add(key);
-                }
-            }
-
-        }
-
-        List<Integer> answer = new ArrayList<>();
-        for (int i = 0; i < arr.length && i <= saveMaxValue; i++) {
-            ArrayList<Integer> subarray = arr[i];
-            if(subarray!=null){
-                answer.addAll(subarray);
-            }
-        }
-        return answer.stream().mapToInt(Integer::intValue).toArray();
     }
+    return resultat.stream().mapToInt(Integer::intValue).toArray();
 }

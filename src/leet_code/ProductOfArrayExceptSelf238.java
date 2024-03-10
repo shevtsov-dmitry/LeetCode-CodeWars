@@ -1,63 +1,23 @@
-package leet_code.java;
-
 import java.util.Arrays;
 
-public class ProductOfArrayExceptSelf238 {
+void main() {
+//    Input: nums = [1,2,3,4]
+//    Output: [24,12,8,6]
+    productExceptSelf(new int[]{1, 2, 3, 4});
+}
 
-    public static void main(String[] args) {
-        int[] ints = new int[] { 1, 2, 3, 4 };
-        productExceptSelf(ints);
-
+public int[] productExceptSelf(int[] nums) {
+    int length = nums.length;
+    int[] prefix = new int[length];
+    int[] postfix = new int[length];
+    prefix[0] = 1;
+    postfix[length - 1] = 1;
+    for (int i = length - 1; i > 0; i--) {
+        postfix[i - 1] = postfix[i] * nums[i];
     }
-
-    public static int[] productExceptSelf(int[] nums) {
-        int n = nums.length;
-        int[] prefix = new int[n];
-        int[] postfix = new int[n];
-
-        int tempo = nums[0];
-        fillPrefix(nums, n, prefix, tempo);
-
-        tempo = nums[n - 1];
-        fillPostfix(nums, n, postfix, tempo);
-
-        calculateResult(nums, n, prefix, postfix);
-
-        // log(nums, prefix, postfix);
-        return nums;
+    for (int i = 0; i < length - 1; i++) {
+        prefix[i + 1] = prefix[i] * nums[i];
+        nums[i] = prefix[i] * postfix[i];
     }
-
-    static void calculateResult(int[] nums, int n, int[] prefix, int[] postfix) {
-        for (int i = 0; i < n; i++) {
-            if (i == 0)
-                nums[i] = postfix[1];
-            else if (i == n - 1)
-                nums[i] = prefix[n - 2];
-            else
-                nums[i] = prefix[i - 1] * postfix[i + 1];
-        }
-    }
-
-    static void fillPostfix(int[] nums, int n, int[] postfix, int tempo) {
-        postfix[n - 1] = nums[n - 1];
-        for (int i = n - 2; i >= 0; i--) {
-            tempo = tempo * nums[i];
-            postfix[i] = tempo;
-        }
-    }
-
-    static void fillPrefix(int[] nums, int n, int[] prefix, int tempo) {
-        prefix[0] = nums[0];
-        for (int i = 0; i < n - 1; i++) {
-            tempo = tempo * nums[i + 1];
-            prefix[i + 1] = tempo;
-        }
-    }
-
-    // static void log(int[] nums, int[] prefix, int[] postfix) {
-    //     System.out.println("prefix: " + Arrays.toString(prefix));
-    //     System.out.println("postfix: " + Arrays.toString(postfix));
-    //     System.out.println("nums: " + Arrays.toString(nums));
-    // }
-
+    return nums;
 }

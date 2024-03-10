@@ -1,27 +1,30 @@
-package leet_code.java;
-
 import java.util.*;
-import java.util.stream.Collectors;
 
-public class GroupAnagrams49 {
-    public static void main(String[] args) {
-//        Input: strs = ["eat","tea","tan","ate","nat","bat"]
-//        Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
-        String[] strs = {"eat","tea","tan","ate","nat","bat"};
-        List<List<String>> lists = groupAnagrams(strs);
-        System.out.println(lists);
-    }
+void main() {
+//    Input: strs = ["eat","tea","tan","ate","nat","bat"]
+//    Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+    String[] strings = {"eat","tea","tan","ate","nat","bat"};
+    groupAnagrams(strings);
+}
 
-    public static List<List<String>> groupAnagrams(String[] strs) {
-        List<char[]> chara = Arrays.stream(strs).map(String::toCharArray).toList();
-        chara.forEach(Arrays::sort);
-        List<String> sorted = chara.stream().map(Arrays::toString).toList();
-        Map<String,List<String>> map = new HashMap<>();
-        for (int i = 0; i < strs.length; i++) {
-            List<String> list = map.getOrDefault(sorted.get(i), new ArrayList<>());
-            list.add(strs[i]);
-            map.put(sorted.get(i), list);
+public List<List<String>> groupAnagrams(String[] strs) {
+    Map<String, List<String>> map = new HashMap<>();
+    StringBuilder stringBuilder = new StringBuilder();
+    for (String str : strs) {
+        char[] charArray = str.toCharArray();
+        Arrays.sort(charArray);
+        for (char c : charArray) {
+            stringBuilder.append(c);
         }
-        return new ArrayList<>(map.values());
+        List<String> list = map.getOrDefault(stringBuilder.toString(), new ArrayList<>());
+        list.add(str);
+        map.put(stringBuilder.toString(), list);
+        stringBuilder.delete(0, stringBuilder.length());
     }
+    List<List<String>> answer = new ArrayList<>();
+    for (Map.Entry<String, List<String>> kv : map.entrySet()) {
+        List<String> value = kv.getValue();
+        answer.add(value);
+    }
+    return answer;
 }
