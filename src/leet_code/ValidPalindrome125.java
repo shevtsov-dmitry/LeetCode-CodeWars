@@ -1,20 +1,23 @@
 void main() {
-    isPalindrome("A man, a plan, a canal: Panama");
+    String string = "A man, a plan, a canal: Panama";
+    isPalindrome(string);
 }
-
 public boolean isPalindrome(String s) {
-    s = s.toLowerCase();
-    StringBuilder alphabeticOnly = new StringBuilder();
-    for (char ch : s.toCharArray()) {
-        if (Character.isAlphabetic(ch)) {
-            alphabeticOnly.append(ch);
+    if(s.isBlank()) return true;
+    char[] charArray = s.toLowerCase().toCharArray();
+    StringBuilder sb =new StringBuilder();
+    for (char c : charArray) {
+        boolean isLetterOrDigit = c >= 97 && c <= 122 || c >= 48 && c <= 57;
+        if(isLetterOrDigit) {
+            sb.append(c);
         }
     }
-    if (alphabeticOnly.isEmpty()) return true;
 
-    char[] letters = alphabeticOnly.toString().toCharArray();
-    for (int i = 0, j = letters.length - 1; i < letters.length; i++, j--) {
-        if(letters[i] != letters[j]) return false;
+    String string = sb.toString();
+    for (int i = 0, j = string.length() - 1; i < string.length() / 2; i++, j--) {
+        if(string.charAt(i) != string.charAt(j)){
+            return false;
+        }
     }
     return true;
 }
