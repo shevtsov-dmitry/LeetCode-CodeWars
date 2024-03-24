@@ -1,37 +1,39 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 void main() {
     // Input: nums = [-1,0,1,2,-1,-4]
     // Output: [[-1,-1,2],[-1,0,1]]
-    int[] nums = { -1, 0, 1, 2, -1, -4 };
-    List<List<Integer>> list = threeSum(nums);
+    int[] nums = {-4, -1, -1, 0, 1, 2};
+    int[] nu = {0, 0, 0};
+    var list = threeSum(nums);
+    var li = threeSum(nu);
     System.out.println(list);
+    System.out.println(li);
+    int[] case3 = {0, 0, 0, 0};
+    var case3ans = threeSum(case3);
+    System.out.println(case3ans);
+    int[] case4 = {1, 2, -2, -1};
+    System.out.println(threeSum(case4));
 }
 
 public List<List<Integer>> threeSum(int[] nums) {
-    Set<List<Integer>> answers = new HashSet<>();
-    List<Integer> list = new ArrayList<>(3);
+    Set<List<Integer>> result = new HashSet<>();
     Arrays.sort(nums);
-    for (int backIdx = nums.length - 1; backIdx >= 0; backIdx--) {
-        for (int i = 0; i < backIdx; i++) {
-            for (int j = i + 1; j < backIdx; j++) {
-                list.add(nums[backIdx]);
-                list.add(nums[i]);
-                list.add(nums[j]);
-                if (list.size() != 3) {
-                    list.clear();
-                    break;
-                }
-                if (list.stream().mapToInt(Integer::intValue).sum() == 0) {
-                    answers.add(new ArrayList<>(list));
-                    list.clear();
-                }
-                list.clear();
+
+    for (int i = 0; i < nums.length - 2; i++) {
+        int r = nums.length - 1;
+        int l = i + 1;
+
+        while (l < r) {
+            int sum = nums[i] + nums[l] + nums[r];
+            if (sum == 0) {
+                result.add(List.of(nums[i], nums[l], nums[r]));
+                l++;
+                r--;
             }
-
+            else if (sum < 0) l++;
+            else r--;
         }
-
     }
-    return answers.stream().toList();
+    return result.stream().toList();
 }
