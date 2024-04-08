@@ -12,7 +12,7 @@ void main() {
     treeNode.right.left = new TreeNode(3);
     postorderTraversal(treeNode);
   }
-
+     
    List<Integer> postorderTraversal(TreeNode node) {
     List<Integer> list = new ArrayList<>();
     traverse(node, list);

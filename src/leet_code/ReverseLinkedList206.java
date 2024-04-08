@@ -1,48 +1,46 @@
-package leet_code.java;
+import java.awt.*;
 
-public class ReverseLinkedList206 {
+void main(String[] args) {
+    ListNode node = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4))));
+    node = recurBackwards(node);
+    print(node);
+}
 
-    public static void main(String[] args) {
-        ListNode node = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4))));
-        node = recur(node, null);
-        print(node);
+public ListNode recurBackwards(ListNode node) {
+    ListNode curr = node;
+    ListNode prev = null;
+    while (curr != null) {
+        ListNode next = curr.next;
+        node.next = prev;
+        prev = curr;
+        curr = next;
+    }
+    return node;
+}
+
+private static void print(ListNode node) {
+    StringBuilder sb = new StringBuilder();
+    while (node != null) {
+        sb.append(node.val).append("-");
+        node = node.next;
+    }
+    sb.deleteCharAt(sb.length() - 1);
+    System.out.println("node = " + sb);
+}
+
+public final static class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode() {
     }
 
-    private static ListNode recur(ListNode current, ListNode reversed) {
-        if (current == null) {
-            return reversed;
-        }
-        ListNode tempo = current.next;
-        current.next = reversed;
-        return recur(tempo, current);
+    ListNode(int val) {
+        this.val = val;
     }
 
-
-    private static void print(ListNode node) {
-        StringBuilder sb = new StringBuilder();
-        while (node != null) {
-            sb.append(node.val).append("-");
-            node = node.next;
-        }
-        sb.deleteCharAt(sb.length() - 1);
-        System.out.println("node = " + sb);
-    }
-
-
-    public final static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
     }
 }
