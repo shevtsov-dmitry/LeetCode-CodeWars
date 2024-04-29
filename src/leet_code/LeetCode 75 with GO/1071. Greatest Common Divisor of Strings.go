@@ -9,6 +9,7 @@ func main() {
 	println(gcdOfStrings("AAAAAAAAA", "AAACCC"))
 }
 
+// TODO solve with GCD math algorithmb
 func gcdOfStrings(longStr string, shortStr string) string {
 	if len(longStr) < len(shortStr) {
 		rememberStr2 := shortStr

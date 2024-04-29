@@ -2,6 +2,7 @@
 out
 .idea
 *.iml
+algorithms-problems-solutions.iml
 
 ### Eclipse ###
 .apt_generated
