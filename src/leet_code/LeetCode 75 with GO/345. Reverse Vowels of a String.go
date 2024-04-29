@@ -1,37 +1,59 @@
 package main
 
-func main() {
-	// Input: s = "hello"
-	// Output: "holle"
-	// if reverseVowels("hello") != "holle" {
-	// 	fmt.Println("case1 err: ", reverseVowels("hello"))
-	// }
+import (
+	"fmt"
+)
 
-	// Input: s = "leetcode"
-	// Output: "leotcede"
-	// if reverseVowels("leetcode") != "leotcede" {
-	// 	fmt.Println("case1 err: ", reverseVowels("leetcode"))
-	// }
-	reverseVowels("leetcode")
+func main() {
+	fmt.Printf("%s\n", reverseVowels("hello"))
+	fmt.Printf("%s\n", reverseVowels("leetcode"))
+	fmt.Println(reverseVowels("a."))
+	fmt.Println(reverseVowels("ai"))
+	fmt.Println(reverseVowels("!!!"))
+	println(reverseVowels("race a car"))
 }
 
 func reverseVowels(s string) string {
 	if len(s) == 1 {
 		return s
 	}
+	vowels := initVowelsSet()
+	chars := []rune(s)
+	l, r := 0, len(s)-1
+	for l <= r {
+		if vowels[rune(s[l])] != 0 && vowels[rune(s[r])] != 0 {
+			rememberLeftRune := chars[l]
+			chars[l] = chars[r]
+			chars[r] = rememberLeftRune
+			r--
+			l++
+		} else if vowels[rune(s[l])] != 0 {
+			r--
+		} else if vowels[rune(s[r])] != 0 {
+			l++
+		} else {
+			l++
+			r--
+		}
 
-	chars := make([]rune, len(s))
-	print(len(chars))
-
-	return recursivelyShrinkRange(0, len(s), chars)
+	}
+	return string(chars)
 }
 
-vowels := []rune{'a','e','o','i','u'}
+func initVowelsSet() map[rune]rune {
+	vowels := make(map[rune]rune)
 
-func recursivelyShrinkRange(start, end int, chars []rune) string {
-	if start == end {
-		return string(chars)
-	}
-	if start == 
-	return ""
+	vowels['a'] = 'a'
+	vowels['e'] = 'e'
+	vowels['i'] = 'i'
+	vowels['o'] = 'o'
+	vowels['u'] = 'u'
+
+	vowels['A'] = 'A'
+	vowels['E'] = 'E'
+	vowels['I'] = 'I'
+	vowels['O'] = 'O'
+	vowels['U'] = 'U'
+
+	return vowels
 }
