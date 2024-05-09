@@ -1,6 +1,5 @@
 package code_wars.java.hashmap;
 
-import java.lang.classfile.components.ClassPrinter;
 import java.util.HashMap;
 import java.util.Map;
 
