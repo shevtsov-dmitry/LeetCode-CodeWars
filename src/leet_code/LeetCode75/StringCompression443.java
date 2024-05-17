@@ -1,27 +1,25 @@
 import java.util.HashMap;
 import java.util.Map;
 
-void main(){
-//    compress(new char[]{'a','a','b','b','c','c','c'});
-    compress(new char[]{'a'});
+void main() {
+//    Input: chars = ["a","a","b","b","c","c","c"]
+//    Output: Return 6, and the first 6 characters of the input array should be: ["a","2","b","2","c","3"]
+//    Explanation: The groups are "aa", "bb", and "ccc". This compresses to "a2b2c3".
+    int compress = compress(new char[]{'a', 'a', 'b', 'b', 'c', 'c', 'c'});
+
 }
 
 public int compress(char[] chars) {
-	Map<Character, Integer> map = new HashMap<>();
-    var sb = new StringBuilder();
+    Map<Character, Integer> map = new HashMap<>();
     for (char c : chars) {
-		map.put(c, map.getOrDefault(c, 0) + 1);
+        map.put(c, map.getOrDefault(c, 0) + 1);
     }
-    for(var mapEntry : map.entrySet()) {
-        char k = mapEntry.getKey();
-        int v = mapEntry.getValue();
-        sb.append(k).append(v);
+    StringBuilder sb = new StringBuilder();
+    for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+        sb.append(entry.getKey()).append(entry.getValue());
     }
-    int i = 0;
-    for (char c : sb.toString().toCharArray()) {
-        if (i > chars.length - 1) break;
-        chars[i] = c;
-        i++;
+    for (int i = 0; i < sb.length(); i++) {
+        chars[i] = sb.charAt(i);
     }
     return sb.length();
 }

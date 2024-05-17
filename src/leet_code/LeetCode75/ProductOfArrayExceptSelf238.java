@@ -1,24 +1,21 @@
 import java.util.Arrays;
 
 void main() {
-   // Input: nums = [1,2,3,4]
-   // Output: [24,12,8,6]
-    int[] ints = productExceptSelf(new int[]{1, 2, 3, 4});
-    System.out.println(Arrays.toString(ints));
+    boolean equals = Arrays.equals(new int[]{24, 12, 8, 6}, productExceptSelf(new int[]{1, 2, 3, 4}));
+    System.out.println(equals);
 }
 
 public int[] productExceptSelf(int[] nums) {
-    int[] prefixArray = new int[nums.length];
-    prefixArray[0] = 1;
+    int[] aidArr = new int[nums.length];
+    aidArr[0] = 1;
     for (int i = 1; i < nums.length; i++) {
-        prefixArray[i] = nums[i - 1] * prefixArray[i - 1];
-    }	
-    int rememberPostfixVal = 1;
-    for (int i = nums.length - 2; i >= 0; i--) {
-    	nums[i + 1] = rememberPostfixVal * nums[i + 1];
-        rememberPostfixVal = nums[i + 1];
-        prefixArray[i] = prefixArray[i] * rememberPostfixVal;
+        aidArr[i] = aidArr[i -1] * nums[i -1 ];
     }
-    return prefixArray;
+    int rememberPrev = 1;
+    for (int i = nums.length - 1; i >= 0; i--) {
+        int rememberCurNum = nums[i];
+        nums[i] = aidArr[i] * rememberPrev;
+        rememberPrev *= rememberCurNum;
+    }
+    return nums;
 }
-

@@ -1,18 +1,8 @@
-import java.util.Arrays;
+class Solution {
 
-static int[] incept = new int[0];
-static int[] parsed = new int[0];
-static int numsLeft = Integer.MAX_VALUE;
+    void main() { }
 
-void main() {
-    byte ignored;
-    ignored = canPlaceFlowers(new int[]{1, 0, 0, 0, 1}, 1) ? pass() : err();
-    ignored = !canPlaceFlowers(new int[]{1, 0, 0, 0, 1}, 2) ? pass() : err();
-    ignored = canPlaceFlowers(new int[]{0, 0, 1, 0, 1}, 1) ? pass() : err();
-}
-
-public boolean canPlaceFlowers(int[] arr, int n) {
-    incept = arr;
+   public boolean canPlaceFlowers(int[] arr, int n) {
     if (n > arr.length) return false;
     if (arr.length <= 2) {
         return handleShortArray(arr, n);
@@ -34,8 +24,7 @@ public boolean canPlaceFlowers(int[] arr, int n) {
         }
 
     }
-    parsed = arr;
-    numsLeft = n;
+
     return n < 1;
 }
 
@@ -55,14 +44,4 @@ private boolean handleShortArray(int[] arr, int n) {
     }
 }
 
-byte pass() {
-    String message = STR."\u001B[32mPASSED\u001B[0m initial: \{Arrays.toString(incept)}. New: \{Arrays.toString(parsed)}";
-    System.out.println(message);
-    return 0;
-}
-
-byte err() {
-    String errorMessage = STR."\u001B[31mFAILED\u001B[0m initial: \{Arrays.toString(incept)}. New: \{Arrays.toString(parsed)}. Nums left = \{numsLeft}.";
-    System.out.println(errorMessage);
-    return 0;
 }

@@ -1,22 +1,19 @@
-import java.util.*;
-
 void main() {
-    isSubsequence("abc", "ahbgdc");
+    String s = "abc", t = "ahbgdc";
+    boolean subsequence = isSubsequence(s, t);
+    System.out.println(subsequence);
 }
 
-//Input: s = "abc", t = "ahbgdc"
-//Output: true
-
 public boolean isSubsequence(String s, String t) {
-    if (s.length() > t.length() || s.isEmpty()) return false;
-    int subsLen = 0;
-    for (char tChar : t.toCharArray()) {
-        if (s.charAt(subsLen) == tChar) {
-            subsLen++;
-        }
-        if (subsLen == s.length()) {
+    if (s.isEmpty()) return true;
+    int subSeqIdx = 0;
+    for (char c : t.toCharArray()) {
+        if (subSeqIdx >= s.length()){
             return true;
         }
+        if (s.charAt(subSeqIdx) == c) {
+            subSeqIdx++;
+        }
     }
-    return false;
+    return subSeqIdx >= s.length();
 }
